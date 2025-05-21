@@ -1,5 +1,4 @@
 import 'dart:convert';
-import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import '../models/question.dart';
@@ -31,22 +30,23 @@ class _QuizScreenState extends State<QuizScreen> {
 
   Future<void> loadQuestions() async {
     final String response = await rootBundle.loadString('assets/biologia_molecular.json');
-    final Map<String, dynamic> jsonData = json.decode(response);
-    final List<dynamic> preguntasData = jsonData['examen_biologia_molecular_y_citogenetica']['preguntas'];
-    questions = preguntasData.map((json) => Question.fromJson(json)).toList();
+    final List<dynamic> jsonData = json.decode(response);
     
-    // Asegurarnos de que no haya preguntas duplicadas por ID
-    questions = questions.toSet().toList();
+    // Extract all questions from all topics
+    questions = [];
+    for (var topic in jsonData) {
+      final List<dynamic> topicQuestions = topic['preguntas'];
+      questions.addAll(topicQuestions.map((json) => Question.fromJson(json)));
+    }
     
-    // Mezclar las preguntas
+    // Shuffle the questions
     questions.shuffle();
     
-    // Seleccionar el número requerido de preguntas únicas
+    // Select the required number of questions
     selectedQuestions = questions.take(widget.questionCount).toList();
     
-    // Verificar si tenemos suficientes preguntas únicas
+    // Verify if we have enough unique questions
     if (selectedQuestions.length < widget.questionCount) {
-      // Si no hay suficientes preguntas únicas, mostrar un mensaje de error
       if (mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
           SnackBar(
@@ -141,9 +141,9 @@ class _QuizScreenState extends State<QuizScreen> {
                 const SizedBox(height: 20),
                 Expanded(
                   child: ListView(
-                    children: currentQuestion.opciones.entries.map((option) {
-                      final isSelected = selectedAnswer == option.key;
-                      final isCorrect = option.key == currentQuestion.respuestaCorrecta;
+                    children: currentQuestion.opciones.map((option) {
+                      final isSelected = selectedAnswer == option;
+                      final isCorrect = option == currentQuestion.respuestaCorrecta;
                       
                       Color buttonColor = AppTheme.primaryColor;
                       if (hasAnswered) {
@@ -157,7 +157,7 @@ class _QuizScreenState extends State<QuizScreen> {
                       return Padding(
                         padding: const EdgeInsets.symmetric(vertical: 8.0),
                         child: ElevatedButton(
-                          onPressed: () => checkAnswer(option.key),
+                          onPressed: () => checkAnswer(option),
                           style: ElevatedButton.styleFrom(
                             backgroundColor: buttonColor,
                             padding: const EdgeInsets.all(16),
@@ -166,7 +166,7 @@ class _QuizScreenState extends State<QuizScreen> {
                             ),
                           ),
                           child: Text(
-                            option.value,
+                            option,
                             style: const TextStyle(
                               fontSize: 16,
                               color: Colors.white,

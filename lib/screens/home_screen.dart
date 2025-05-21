@@ -43,7 +43,7 @@ class HomeScreen extends StatelessWidget {
                           spacing: 16,
                           runSpacing: 16,
                           alignment: WrapAlignment.center,
-                          children: [20, 50].map((count) {
+                          children: [20, 50, 100 , 150, 200, 250, 300, 350, 400].map((count) {
                             return ElevatedButton(
                               onPressed: () {
                                 Navigator.push(
