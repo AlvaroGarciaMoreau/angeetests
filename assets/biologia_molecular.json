@@ -1,0 +1,608 @@
+{
+  "examen_biologia_molecular_y_citogenetica": {
+    "preguntas": [
+      {
+        "id": 1,
+        "pregunta": "¿Cuál es el objetivo principal de la clonación terapéutica según el caso práctico inicial?",
+        "opciones": {
+          "A": "Producir un individuo genéticamente idéntico.",
+          "B": "Fabricar órganos o tejidos compatibles para trasplantes.",
+          "C": "Estudiar la división celular en embriones.",
+          "D": "Obtener células germinales para investigación."
+        },
+        "respuesta_correcta": "B"
+      },
+      {
+        "id": 2,
+        "pregunta": "¿Qué se extrae del ovocito de una donante para la clonación terapéutica, según el PDF?",
+        "opciones": {
+          "A": "El citoplasma.",
+          "B": "Las mitocondrias.",
+          "C": "El núcleo.",
+          "D": "La membrana celular."
+        },
+        "respuesta_correcta": "C"
+      },
+      {
+        "id": 3,
+        "pregunta": "¿Qué tipo de célula del paciente se introduce en el ovocito anucleado durante la clonación terapéutica?",
+        "opciones": {
+          "A": "Una célula germinal.",
+          "B": "Una célula somática.",
+          "C": "Un gameto.",
+          "D": "Una célula sanguínea."
+        },
+        "respuesta_correcta": "B"
+      },
+      {
+        "id": 4,
+        "pregunta": "¿Cuál es el resultado de estimular la división celular después de introducir el núcleo somático en el ovocito?",
+        "opciones": {
+          "A": "Una célula madre.",
+          "B": "Un gameto.",
+          "C": "Un embrión clon.",
+          "D": "Un tejido diferenciado."
+        },
+        "respuesta_correcta": "C"
+      },
+      {
+        "id": 5,
+        "pregunta": "¿Por qué un órgano fabricado mediante clonación terapéutica es totalmente compatible con el paciente?",
+        "opciones": {
+          "A": "Porque se utilizan células de donantes jóvenes.",
+          "B": "Porque lleva el mismo material genético del paciente.",
+          "C": "Porque se incuba in vitro.",
+          "D": "Porque se le aplican tratamientos inmunosupresores."
+        },
+        "respuesta_correcta": "B"
+      },
+      {
+        "id": 6,
+        "pregunta": "¿Cuál es uno de los temas centrales del documento, según el título?",
+        "opciones": {
+          "A": "Genética de poblaciones.",
+          "B": "Biología molecular y citogenética.",
+          "C": "Microbiología clínica.",
+          "D": "Farmacología molecular."
+        },
+        "respuesta_correcta": "B"
+      },
+      {
+        "id": 7,
+        "pregunta": "¿Qué institución oficial de formación profesional publicó este temario?",
+        "opciones": {
+          "A": "UNED.",
+          "B": "MEDAC.",
+          "C": "UGR.",
+          "D": "Elsevier."
+        },
+        "respuesta_correcta": "B"
+      },
+      {
+        "id": 8,
+        "pregunta": "¿Qué número de sección del índice corresponde a 'Instalaciones'?",
+        "opciones": {
+          "A": "2.",
+          "B": "3.",
+          "C": "4.",
+          "D": "5."
+        },
+        "respuesta_correcta": "B"
+      },
+      {
+        "id": 9,
+        "pregunta": "¿Dónde se aborda el 'Organigrama' dentro del índice del documento?",
+        "opciones": {
+          "A": "Sección 4.",
+          "B": "Sección 5.",
+          "C": "Sección 6.",
+          "D": "Sección 7."
+        },
+        "respuesta_correcta": "B"
+      },
+      {
+        "id": 10,
+        "pregunta": "¿Qué sección del documento trata sobre el 'Área de procesado y bandeado'?",
+        "opciones": {
+          "A": "Sección 5.",
+          "B": "Sección 6.",
+          "C": "Sección 7.",
+          "D": "Sección 8."
+        },
+        "respuesta_correcta": "B"
+      },
+      {
+        "id": 11,
+        "pregunta": "¿En qué sección se discute el 'Área de microscopía y digitalización de imágenes'?",
+        "opciones": {
+          "A": "Sección 6.",
+          "B": "Sección 7.",
+          "C": "Sección 8.",
+          "D": "Sección 9."
+        },
+        "respuesta_correcta": "B"
+      },
+      {
+        "id": 12,
+        "pregunta": "¿Qué apartado del índice se refiere a 'Personal y funciones'?",
+        "opciones": {
+          "A": "Sección 7.",
+          "B": "Sección 8.",
+          "C": "Sección 9.",
+          "D": "Sección 10."
+        },
+        "respuesta_correcta": "B"
+      },
+      {
+        "id": 13,
+        "pregunta": "¿Qué sección del documento se dedica a 'La Genética Médica'?",
+        "opciones": {
+          "A": "Sección 8.",
+          "B": "Sección 9.",
+          "C": "Sección 10.",
+          "D": "Sección 11."
+        },
+        "respuesta_correcta": "B"
+      },
+      {
+        "id": 14,
+        "pregunta": "¿Dónde se encuentra el 'Catálogo de pruebas de citogenética de un hospital' en el índice?",
+        "opciones": {
+          "A": "Sección 9.",
+          "B": "Sección 10.",
+          "C": "Sección 11.",
+          "D": "Sección 12."
+        },
+        "respuesta_correcta": "B"
+      },
+      {
+        "id": 15,
+        "pregunta": "¿Qué sección aborda el 'Caso práctico 2: Cómo detectar alteraciones cromosómicas'?",
+        "opciones": {
+          "A": "Sección 10.",
+          "B": "Sección 11.",
+          "C": "Sección 12.",
+          "D": "Sección 13."
+        },
+        "respuesta_correcta": "B"
+      },
+      {
+        "id": 16,
+        "pregunta": "¿Qué se discute en la sección 13 del documento?",
+        "opciones": {
+          "A": "Programas de formación.",
+          "B": "Gestión de la calidad.",
+          "C": "Resumen y resolución del caso práctico de la unidad.",
+          "D": "Bibliografía."
+        },
+        "respuesta_correcta": "B"
+      },
+      {
+        "id": 17,
+        "pregunta": "¿Cuál es la última sección del documento antes del ISBN?",
+        "opciones": {
+          "A": "Resumen y resolución del caso práctico de la unidad.",
+          "B": "Bibliografía.",
+          "C": "Gestión de la calidad.",
+          "D": "Programas de formación."
+        },
+        "respuesta_correcta": "B"
+      },
+      {
+        "id": 18,
+        "pregunta": "¿Cuál es el ISBN del documento?",
+        "opciones": {
+          "A": "978-84-18864-25-1.",
+          "B": "978-84-18864-26-1.",
+          "C": "978-84-18864-27-1.",
+          "D": "978-84-18864-28-1."
+        },
+        "respuesta_correcta": "B"
+      },
+      {
+        "id": 19,
+        "pregunta": "¿Quiénes son los autores del libro 'Biología molecular y citogenética' citado en la bibliografía?",
+        "opciones": {
+          "A": "Ronchera-OMS y González.",
+          "B": "Torrades y Entrala.",
+          "C": "Caparrós Mota, Cuenca Pardo y Sipán Sarrión.",
+          "D": "MEDAC."
+        },
+        "respuesta_correcta": "C"
+      },
+      {
+        "id": 20,
+        "pregunta": "¿De qué año es la publicación 'Biología molecular y citogenética' de Caparrós Mota et al.?",
+        "opciones": {
+          "A": "2015.",
+          "B": "2016.",
+          "C": "2017.",
+          "D": "2018."
+        },
+        "respuesta_correcta": "B"
+      },
+      {
+        "id": 21,
+        "pregunta": "¿Cuál es la editorial del libro 'Biología molecular y citogenética' mencionado en la bibliografía?",
+        "opciones": {
+          "A": "Elsevier.",
+          "B": "Paraninfo.",
+          "C": "SEFH.",
+          "D": "UGR."
+        },
+        "respuesta_correcta": "B"
+      },
+      {
+        "id": 22,
+        "pregunta": "¿Quién es el autor principal del artículo sobre 'Terapia génica' en la bibliografía?",
+        "opciones": {
+          "A": "Caparrós Mota.",
+          "B": "Ronchera-OMS.",
+          "C": "Torrades.",
+          "D": "Entrala."
+        },
+        "respuesta_correcta": "B"
+      },
+      {
+        "id": 23,
+        "pregunta": "¿De qué sitio web se cita el artículo 'Finalidades terapéuticas de la clonación'?",
+        "opciones": {
+          "A": "sefh.es.",
+          "B": "ugr.es.",
+          "C": "elsevier.es.",
+          "D": "medac.es."
+        },
+        "respuesta_correcta": "C"
+      },
+      {
+        "id": 24,
+        "pregunta": "¿Qué autor es referenciado para 'Técnicas de análisis del ADN en genética forense'?",
+        "opciones": {
+          "A": "C. L. Ronchera-OMS.",
+          "B": "S. Torrades.",
+          "C": "C. Entrala.",
+          "D": "M. Caparrós Mota."
+        },
+        "respuesta_correcta": "C"
+      },
+      {
+        "id": 25,
+        "pregunta": "¿De qué universidad procede el enlace sobre 'Técnicas de análisis del ADN en genética forense'?",
+        "opciones": {
+          "A": "Universidad Complutense de Madrid.",
+          "B": "Universidad de Granada (UGR).",
+          "C": "Universidad de Sevilla.",
+          "D": "Universidad de Valencia."
+        },
+        "respuesta_correcta": "B"
+      },
+      {
+        "id": 26,
+        "pregunta": "¿Qué tema principal abarca el documento 'BIOLOGÍA MOLECULAR Y CITOGENÉTICA'?",
+        "opciones": {
+          "A": "El laboratorio de citogenética y cultivo celular.",
+          "B": "La microbiología industrial.",
+          "C": "La biotecnología agrícola.",
+          "D": "La genómica vegetal."
+        },
+        "respuesta_correcta": "A"
+      },
+      {
+        "id": 27,
+        "pregunta": "¿Qué tipo de caso práctico se presenta al inicio del documento para introducir el tema?",
+        "opciones": {
+          "A": "Un caso sobre la detección de virus.",
+          "B": "Un caso sobre clonación terapéutica para trasplante de hígado.",
+          "C": "Un caso sobre la producción de vacunas.",
+          "D": "Un caso sobre terapia génica en enfermedades raras."
+        },
+        "respuesta_correcta": "B"
+      },
+      {
+        "id": 28,
+        "pregunta": "¿Qué se busca lograr al manipular las células germinales que darán lugar al hígado en el caso práctico inicial?",
+        "opciones": {
+          "A": "Estudiar su morfología.",
+          "B": "Formar un hígado totalmente compatible.",
+          "C": "Detectar anomalías genéticas.",
+          "D": "Probar nuevos fármacos."
+        },
+        "respuesta_correcta": "B"
+      },
+      {
+        "id": 29,
+        "pregunta": "¿Qué riesgo se elimina al realizar un trasplante con un órgano clonado a partir de material genético del propio paciente?",
+        "opciones": {
+          "A": "Riesgo de infección.",
+          "B": "Riesgo de rechazo.",
+          "C": "Riesgo de hemorragia.",
+          "D": "Riesgo de cáncer."
+        },
+        "respuesta_correcta": "B"
+      },
+      {
+        "id": 30,
+        "pregunta": "¿Cuál es la primera sección después de la 'Introducción y contextualización práctica' en el índice?",
+        "opciones": {
+          "A": "¿Qué es un laboratorio de citogenética y cultivo celular?",
+          "B": "Instalaciones.",
+          "C": "Caso práctico 1: \"\"Equipos de conservación\"\".",
+          "D": "Organigrama."
+        },
+        "respuesta_correcta": "A"
+      },
+      {
+        "id": 31,
+        "pregunta": "¿Qué se menciona específicamente en la sección 4, 'Caso práctico 1'?",
+        "opciones": {
+          "A": "Detección de alteraciones cromosómicas.",
+          "B": "Equipos de conservación.",
+          "C": "Análisis de ADN forense.",
+          "D": "Terapias génicas."
+        },
+        "respuesta_correcta": "B"
+      },
+      {
+        "id": 32,
+        "pregunta": "¿Qué tipo de equipos se esperan encontrar en un laboratorio de citogenética, según la sección 4?",
+        "opciones": {
+          "A": "Equipos de conservación.",
+          "B": "Equipos de soldadura.",
+          "C": "Equipos de perforación.",
+          "D": "Equipos de construcción."
+        },
+        "respuesta_correcta": "A"
+      },
+      {
+        "id": 33,
+        "pregunta": "¿Qué tipo de laboratorio se describe en la sección 2 del documento?",
+        "opciones": {
+          "A": "Un laboratorio de química orgánica.",
+          "B": "Un laboratorio de física nuclear.",
+          "C": "Un laboratorio de citogenética y cultivo celular.",
+          "D": "Un laboratorio de microbiología ambiental."
+        },
+        "respuesta_correcta": "C"
+      },
+      {
+        "id": 34,
+        "pregunta": "¿Qué información se detalla en la sección 3 del índice?",
+        "opciones": {
+          "A": "Personal y funciones.",
+          "B": "Instalaciones.",
+          "C": "Gestión de la calidad.",
+          "D": "Programas de formación."
+        },
+        "respuesta_correcta": "B"
+      },
+      {
+        "id": 35,
+        "pregunta": "¿Qué se describe en la sección 5 'Organigrama'?",
+        "opciones": {
+          "A": "La distribución de los equipos.",
+          "B": "La estructura jerárquica del personal.",
+          "C": "Los protocolos de seguridad.",
+          "D": "Las pruebas de diagnóstico realizadas."
+        },
+        "respuesta_correcta": "B"
+      },
+      {
+        "id": 36,
+        "pregunta": "¿Qué se realiza en el 'Área de procesado y bandeado' de un laboratorio de citogenética?",
+        "opciones": {
+          "A": "Cultivo de bacterias.",
+          "B": "Preparación de muestras para análisis cromosómico.",
+          "C": "Síntesis de proteínas.",
+          "D": "Análisis de compuestos químicos."
+        },
+        "respuesta_correcta": "B"
+      },
+      {
+        "id": 37,
+        "pregunta": "¿Qué se hace en el 'Área de microscopía y digitalización de imágenes'?",
+        "opciones": {
+          "A": "Lavado de material de laboratorio.",
+          "B": "Observación de muestras y captura de imágenes.",
+          "C": "Preparación de medios de cultivo.",
+          "D": "Extracción de ADN."
+        },
+        "respuesta_correcta": "B"
+      },
+      {
+        "id": 38,
+        "pregunta": "¿Qué aborda la sección 'Personal y funciones'?",
+        "opciones": {
+          "A": "El equipamiento del laboratorio.",
+          "B": "Las responsabilidades del equipo de trabajo.",
+          "C": "Los métodos de esterilización.",
+          "D": "Las normas de bioseguridad."
+        },
+        "respuesta_correcta": "B"
+      },
+      {
+        "id": 39,
+        "pregunta": "¿Qué papel juega la 'Genética Médica' en el contexto del documento?",
+        "opciones": {
+          "A": "Se encarga del diseño de nuevos fármacos.",
+          "B": "Estudia las enfermedades genéticas y su diagnóstico.",
+          "C": "Desarrolla nuevas técnicas de clonación.",
+          "D": "Investiga la evolución de las especies."
+        },
+        "respuesta_correcta": "B"
+      },
+      {
+        "id": 40,
+        "pregunta": "¿Qué se describe en el 'Catálogo de pruebas de citogenética de un hospital'?",
+        "opciones": {
+          "A": "Los medicamentos disponibles.",
+          "B": "Los tipos de análisis cromosómicos que se realizan.",
+          "C": "Los procedimientos quirúrgicos.",
+          "D": "Las dietas hospitalarias."
+        },
+        "respuesta_correcta": "B"
+      },
+      {
+        "id": 41,
+        "pregunta": "¿A qué se refiere el 'Caso práctico 2: Cómo detectar alteraciones cromosómicas'?",
+        "opciones": {
+          "A": "Al proceso de curar el cáncer.",
+          "B": "A la identificación de anomalías en el número o estructura de los cromosomas.",
+          "C": "Al desarrollo de nuevas especies.",
+          "D": "A la secuenciación de genomas completos."
+        },
+        "respuesta_correcta": "B"
+      },
+      {
+        "id": 42,
+        "pregunta": "¿Qué tipo de programas se pueden encontrar en la sección 12 'Programas de formación'?",
+        "opciones": {
+          "A": "Programas informáticos.",
+          "B": "Programas de educación y capacitación en el área.",
+          "C": "Programas de televisión.",
+          "D": "Programas de reciclaje de residuos."
+        },
+        "respuesta_correcta": "B"
+      },
+      {
+        "id": 43,
+        "pregunta": "¿Por qué es importante la 'Gestión de la calidad' en un laboratorio de citogenética?",
+        "opciones": {
+          "A": "Para reducir costos de operación.",
+          "B": "Para asegurar la fiabilidad y precisión de los resultados.",
+          "C": "Para aumentar la velocidad de los análisis.",
+          "D": "Para diversificar los servicios ofrecidos."
+        },
+        "respuesta_correcta": "B"
+      },
+      {
+        "id": 44,
+        "pregunta": "¿Qué tipo de análisis se estudian en el contexto de la genética forense según una de las referencias?",
+        "opciones": {
+          "A": "Análisis de proteínas.",
+          "B": "Análisis de ADN.",
+          "C": "Análisis de lípidos.",
+          "D": "Análisis de carbohidratos."
+        },
+        "respuesta_correcta": "B"
+      },
+      {
+        "id": 45,
+        "pregunta": "¿Qué se incuba 'in vitro' en el caso práctico inicial para formar el órgano compatible?",
+        "opciones": {
+          "A": "El ovocito sin núcleo.",
+          "B": "Las células germinales diferenciadas.",
+          "C": "La célula somática.",
+          "D": "El embrión completo."
+        },
+        "respuesta_correcta": "B"
+      },
+      {
+        "id": 46,
+        "pregunta": "¿Cuál es la función de la microdisección en el proceso de clonación terapéutica para fabricar un órgano?",
+        "opciones": {
+          "A": "Extraer el núcleo del ovocito.",
+          "B": "Separar las células germinales específicas del embrión.",
+          "C": "Estimular la división celular.",
+          "D": "Introducir la célula somática."
+        },
+        "respuesta_correcta": "B"
+      },
+      {
+        "id": 47,
+        "pregunta": "¿Qué tipo de trasplante se facilita con la clonación terapéutica, según el caso práctico?",
+        "opciones": {
+          "A": "Trasplante de sangre.",
+          "B": "Trasplante de hígado.",
+          "C": "Trasplante de corazón.",
+          "D": "Trasplante de riñón."
+        },
+        "respuesta_correcta": "B"
+      },
+      {
+        "id": 48,
+        "pregunta": "¿Qué se entiende por 'bandeado' en el contexto del área de procesado de un laboratorio de citogenética?",
+        "opciones": {
+          "A": "El proceso de agrupar muestras.",
+          "B": "La técnica para crear patrones distintivos en los cromosomas.",
+          "C": "El almacenamiento de muestras en bandas.",
+          "D": "La secuenciación de grandes fragmentos de ADN."
+        },
+        "respuesta_correcta": "B"
+      },
+      {
+        "id": 49,
+        "pregunta": "¿Qué papel juega la digitalización de imágenes en el área de microscopía?",
+        "opciones": {
+          "A": "Mejorar la resolución del microscopio.",
+          "B": "Permitir el almacenamiento y análisis computarizado de las observaciones.",
+          "C": "Reducir el tiempo de observación.",
+          "D": "Aumentar el número de muestras procesadas."
+        },
+        "respuesta_correcta": "B"
+      },
+      {
+        "id": 50,
+        "pregunta": "¿Qué se busca garantizar con la 'Gestión de la calidad' en un laboratorio?",
+        "opciones": {
+          "A": "La reducción de personal.",
+          "B": "La optimización de los espacios.",
+          "C": "La estandarización de los procedimientos y la obtención de resultados fiables.",
+          "D": "El incremento de la producción de reactivos."
+        },
+        "respuesta_correcta": "C"
+      }
+    ],
+    "respuestas": {
+      "1": "B",
+      "2": "C",
+      "3": "B",
+      "4": "C",
+      "5": "B",
+      "6": "B",
+      "7": "B",
+      "8": "B",
+      "9": "B",
+      "10": "B",
+      "11": "B",
+      "12": "B",
+      "13": "B",
+      "14": "B",
+      "15": "B",
+      "16": "B",
+      "17": "B",
+      "18": "B",
+      "19": "C",
+      "20": "B",
+      "21": "B",
+      "22": "B",
+      "23": "C",
+      "24": "C",
+      "25": "B",
+      "26": "A",
+      "27": "B",
+      "28": "B",
+      "29": "B",
+      "30": "A",
+      "31": "B",
+      "32": "A",
+      "33": "C",
+      "34": "B",
+      "35": "B",
+      "36": "B",
+      "37": "B",
+      "38": "B",
+      "39": "B",
+      "40": "B",
+      "41": "B",
+      "42": "B",
+      "43": "B",
+      "44": "B",
+      "45": "B",
+      "46": "B",
+      "47": "B",
+      "48": "B",
+      "49": "B",
+      "50": "C"
+    }
+  }
+}
