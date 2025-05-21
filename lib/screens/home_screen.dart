@@ -12,7 +12,7 @@ class HomeScreen extends StatelessWidget {
         title: const Text('Test de Biología Molecular'),
       ),
       body: Container(
-        decoration: BoxDecoration(
+        decoration: const BoxDecoration(
           gradient: LinearGradient(
             begin: Alignment.topCenter,
             end: Alignment.bottomCenter,

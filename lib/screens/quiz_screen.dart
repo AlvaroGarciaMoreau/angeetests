@@ -113,7 +113,7 @@ class _QuizScreenState extends State<QuizScreen> {
         title: Text('Pregunta ${currentQuestionIndex + 1}/${selectedQuestions.length}'),
       ),
       body: Container(
-        decoration: BoxDecoration(
+        decoration: const BoxDecoration(
           gradient: LinearGradient(
             begin: Alignment.topCenter,
             end: Alignment.bottomCenter,
