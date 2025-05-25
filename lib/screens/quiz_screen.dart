@@ -45,6 +45,14 @@ class _QuizScreenState extends State<QuizScreen> {
     // Select the required number of questions
     selectedQuestions = questions.take(widget.questionCount).toList();
     
+    // Shuffle options for each question while maintaining correct answer reference
+    for (var question in selectedQuestions) {
+      final correctAnswer = question.respuestaCorrecta;
+      question.opciones.shuffle();
+      // Ensure the correct answer is still referenced correctly
+      question.respuestaCorrecta = correctAnswer;
+    }
+    
     // Verify if we have enough unique questions
     if (selectedQuestions.length < widget.questionCount) {
       if (mounted) {
@@ -93,6 +101,16 @@ class _QuizScreenState extends State<QuizScreen> {
           ),
         ),
       );
+    }
+  }
+
+  void previousQuestion() {
+    if (currentQuestionIndex > 0) {
+      setState(() {
+        currentQuestionIndex--;
+        hasAnswered = false;
+        selectedAnswer = null;
+      });
     }
   }
 
@@ -180,25 +198,45 @@ class _QuizScreenState extends State<QuizScreen> {
                 if (hasAnswered)
                   Padding(
                     padding: const EdgeInsets.symmetric(vertical: 16.0),
-                    child: ElevatedButton(
-                      onPressed: nextQuestion,
-                      style: ElevatedButton.styleFrom(
-                        backgroundColor: AppTheme.accentColor,
-                        padding: const EdgeInsets.all(16),
-                        shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(12),
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                      children: [
+                        ElevatedButton(
+                          onPressed: currentQuestionIndex > 0 ? previousQuestion : null,
+                          style: ElevatedButton.styleFrom(
+                            backgroundColor: currentQuestionIndex > 0 ? AppTheme.accentColor : Colors.grey,
+                            padding: const EdgeInsets.all(16),
+                            shape: RoundedRectangleBorder(
+                              borderRadius: BorderRadius.circular(12),
+                            ),
+                          ),
+                          child: const Icon(
+                            Icons.arrow_back,
+                            color: Colors.white,
+                            size: 24,
+                          ),
                         ),
-                      ),
-                      child: Text(
-                        currentQuestionIndex < selectedQuestions.length - 1
-                            ? 'Siguiente pregunta'
-                            : 'Ver resultados',
-                        style: const TextStyle(
-                          fontSize: 18,
-                          fontWeight: FontWeight.bold,
-                          color: Colors.white,
+                        ElevatedButton(
+                          onPressed: nextQuestion,
+                          style: ElevatedButton.styleFrom(
+                            backgroundColor: AppTheme.accentColor,
+                            padding: const EdgeInsets.all(16),
+                            shape: RoundedRectangleBorder(
+                              borderRadius: BorderRadius.circular(12),
+                            ),
+                          ),
+                          child: Text(
+                            currentQuestionIndex < selectedQuestions.length - 1
+                                ? 'Siguiente pregunta'
+                                : 'Ver resultados',
+                            style: const TextStyle(
+                              fontSize: 18,
+                              fontWeight: FontWeight.bold,
+                              color: Colors.white,
+                            ),
+                          ),
                         ),
-                      ),
+                      ],
                     ),
                   ),
               ],
