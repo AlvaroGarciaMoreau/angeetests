@@ -16,6 +16,7 @@ class _SplashScreenState extends State<SplashScreen> {
     super.initState();
     SystemChrome.setEnabledSystemUIMode(SystemUiMode.immersive);
     Future.delayed(const Duration(seconds: 2), () {
+      if (!mounted) return;
       Navigator.of(context).pushReplacement(
         MaterialPageRoute(builder: (_) => const HomeScreen()),
       );
@@ -58,7 +59,7 @@ class _SplashScreenState extends State<SplashScreen> {
                   width: 200,
                   height: 200,
                   decoration: BoxDecoration(
-                    color: AppTheme.primaryColor.withOpacity(0.1),
+                    color: AppTheme.primaryColor.withAlpha((0.1 * 255).toInt()),
                     shape: BoxShape.circle,
                   ),
                   child: const Icon(
